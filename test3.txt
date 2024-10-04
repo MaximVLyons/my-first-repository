@@ -1,0 +1,63 @@
+### **Computer Security Overview**
+- **Definition**: Protection of computer systems and data from harm, theft, and unauthorized use.
+- **Security Goals**:
+  - **Confidentiality**: Protects data from unauthorized disclosure.
+  - **Integrity**: Ensures data hasn't been altered.
+  - **Availability**: Ensures authorized users have timely access to data.
+
+---
+
+### **Confidentiality Tools**
+- **Encryption**: Transforms information using a key, ensuring only those with the decryption key can access it.
+- **Access Control**: Rules/policies restricting access to sensitive data.
+- **Authentication**: Verifies identity using:
+  - Something you have (e.g., ID card).
+  - Something you know (e.g., password).
+  - Something you are (e.g., fingerprint).
+- **Authorization**: Verifies if a user/system is allowed to access resources.
+- **Physical Security**: Barriers like locks, secure rooms, etc.
+
+---
+
+### **Integrity Tools**
+- **Backups**: Regular archiving of data.
+- **Checksums**: Maps data to a numerical value to detect alterations.
+- **Data Correcting Codes**: Detect and correct data changes through redundancy.
+
+---
+
+### **Availability Tools**
+- **Physical Protections**: Infrastructure that keeps information accessible.
+- **Computational Redundancies**: Backup systems in case of failures.
+
+---
+
+### **Threats & Attacks**
+Eavesdropping**: Unauthorized interception of communication.
+Alteration**: Modifying data (e.g., man-in-the-middle attacks).
+Denial-of-Service (DoS)**: Overloading a service, making it unavailable.
+Masquerading**: Faking identity in communications.
+Repudiation**: Denying receipt or commitment to data.
+Correlation and Traceback**: Tracing the source of information.
+
+---
+
+*The Ten Security Principles**
+Economy of Mechanism**: Keep security systems simple.
+Fail-Safe Defaults**: Default settings should deny access.
+Complete Mediation**: Every access to a resource must be checked.
+Open Design**: Security design should be public, relying only on secret keys.
+Separation of Privilege**: Multiple conditions should be needed for access.
+Least Privilege**: Users should have minimal access needed.
+Least Common Mechanism**: Minimize shared access to resources.
+Psychological Acceptability**: User-friendly security settings.
+Work Factor**: Make security breaches costly in time/resources.
+*Compromise Recording**: Recording intrusions can be more practical than prevention.
+
+---
+
+Access Control Models
+Access Control Matrices**: Defines subject-object access permissions in a table format.
+Access Control Lists (ACL)**: Lists permissions for each object, useful for file systems.
+Capabilities**: Lists permissions for each subject.
+Role-Based Access Control (RBAC)**: Defines access rights for roles rather than individuals.
